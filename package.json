@@ -1,0 +1,28 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "Real time chat system with rooms",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+	"dev" : "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asharmapu92/chatapp.git"
+  },
+  "author": "Anuj Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asharmapu92/chatapp/issues"
+  },
+  "homepage": "https://github.com/asharmapu92/chatapp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
